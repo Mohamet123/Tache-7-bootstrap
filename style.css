@@ -1,0 +1,126 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./images-back.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+   background-attachment: fixed;
+}
+/*-------------------section Home-----------*/
+#home{
+    text-align: center;
+}
+
+#home h3{
+    color: brown;
+}
+#home h2{
+    color: #fff;
+    font-size: 75px;
+    font-weight: lighter;
+}
+._cont{
+    background-color: brown;
+    
+}
+.active{
+    font-weight: bolder;
+    font-size: 20px;   
+}
+._text{
+   
+    padding-top: 80px;
+    background-color: wheat;
+    height: 300px;
+    margin-right: -70px;
+    position: relative;
+    z-index: 5;
+}
+.bout{
+    background-color: saddlebrown;
+    color: #fff;
+    border: none;
+    width: 30%;
+    padding: 10px;
+    margin-top: 27px;
+}
+._img1{
+    margin-right: -100px;
+}
+._bg1{
+    background-color: rgb(167, 75, 52, 0.7 );
+    
+}
+#home2{
+    margin-top: 50px;
+}
+.footer{
+    background-color: rgb(66, 47, 21);
+}
+/*------------------- fin section Home-----------*/
+
+
+/*-------------------section About-----------*/
+._bg2{
+    background-color: #F6E1C5;
+    border-radius: 10px;
+}
+._tabout{
+    margin-top: -50px;
+}
+
+
+/*-------------------fin section About-----------*/
+
+/*-------------------section products-----------*/
+.products-txt{
+    background-color:#F6E1C5 ;
+
+}
+.large-txt{
+    background-color: #F6E1C5;
+}
+._s1{
+    position: relative;
+    z-index: 5;
+    margin-bottom: -50px;
+}
+._s2{
+    position: relative;
+    z-index: 5;
+    margin-top: -50px;
+}
+/*-------------------fin section Products-----------*/
+
+/*-------------------section Store-----------*/
+.bg3{
+    background-color: #F6E1C5;
+    border: 3px solid rgb(209, 87, 0);
+    border-spacing: 33px;
+    background-clip: content-box;
+    border-radius: 10px;
+    padding: 10px;
+}
+._k{
+    margin-left: 70px;
+    width: 40px;
+}
+
+
+
+/*-------------------fin section Store-----------*/
+
+
+@media (max-width: 767px){
+    .horaires{
+        text-align: center;
+    }
+    ._k{
+        margin-right: 50px;
+        width: 20px;
+    }
+}
